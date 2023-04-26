@@ -2,100 +2,86 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Sedgwick Ave Display', cursive;
-    font-family: 'Tilt Prism', cursive;
-    font-family: 'Vina Sans', cursive;
-    font-family: 'Ysabeau', sans-serif;
 }
+
+
 .container{
     width: 100%;
-    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.green-nav{
-    width: 100%;
-    height: 30px;
-    background-color: rgb(12, 238, 12);
+.form-section{
+    width: 40%;
+    height: 100vh;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-between;
-}
-
-
-.green-nav ul{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    list-style: none;
-    padding: 20px;
-}
-
-.white-nav{
-    width: 100%;
-    height: 100px;
-    background-color: white;
-    border-bottom: 1px solid yellow;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    list-style: none;
-}
-.white-nav img{
-    width: 300px;
-}
-.white-nav ul{
-    width: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    list-style: none;
-    font-size: 20px;
-}
-.stating{
-    width: 100%;
-    height: 550px;
-  background-image: url(./59277.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.text-section h4{
-   margin-bottom:20px;
+    flex-direction: column;
    
- 
 }
-.text-section h2{
-    height: 60px;
-    margin-bottom: 10px;
+.img-section{
+    width: 60%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+justify-content: center;
 }
-.text-section h1{
-    margin-bottom: 20px ;
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    margin-top: 20px;
 }
-.text-section h5{
-    margin-bottom: 20px;
-}
-.text-section button{
-    width: 200px;
-    height: 50px;
-    margin-bottom: 50px;
-    background-color: rgb(233, 205, 44);
-    border-radius: 30px;
-    border: none;
-}
-
-.text-section button:hover{
-    background-color: rgb(30, 255, 0);
-    color: white;
-    transition: all ease-in-out;
-    transform: scale(125%);
+label{
+    color: rgb(241, 242, 243);
+    margin-right: 240px;
     
-
+}
+input{
+    width: 350px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-color: white;
+    background-color: black;
+    border-radius: 1px;
+}
+.sgin{
+    width: 300px;
+    height: 45px;
+border-radius: 2px;
+background-color: rgba(77, 77, 240, 0.644);
+color: white;
+}
+.FP{
+margin-top: 50px;
+color: rgba(70, 70, 236, 0.822);
+}
+.CS{
+    margin-top: 20px;
+    color: rgba(70, 70, 236, 0.822); 
+}
+.create{
+width: 300px;
+height: 45px;
+border-radius: 2px;
+color: white;
+background-color: rgb(75, 74, 74);
+border-color: black;
+border: none;
+}
+.img-section img{
+    width: 500px;
+   
+}
+p{
+    margin-top: 20px;
+    color: aqua;
+    font-size: 16px;
 }
