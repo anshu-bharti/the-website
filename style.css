@@ -1,44 +1,44 @@
-  input{
-    width: 300px;
-    height: 30px;
-    border: none;
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
 
-   background: transparent;
-   border-bottom: 1px solid black;
-  }
-  div{
-    background-color:whitesmoke;
- height: 400px;
+}
+
+.container{
+width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(196, 197, 197);
+margin-top: 10px;
+
+}
+.box{
 width: 400px;
-margin-top: 100px;
-margin-left: 400px;
-
-  }
-
-div img{
-    width: 140px;
-    margin-top: 30px;
-    margin-left: 30px;
+height: 400px;
+background-color: aliceblue;
+display: flex;
+align-items:center ;
+justify-content: center;
+border-radius: 20px;
+border: 10px solid ;
+flex-direction: column;
+box-shadow: 2px 2px 2px whitesmoke;
+margin-top: 10px;
 }
-h2 , input, p, a{
-    margin-left: 30px;
+button {
+  
+    width: 120px;
+    height: 30px;
+    box-shadow: 3px 3px 3px 3px black;
+    margin-top: 10px;
+    
 }
-  body{
-
-    background-color: rgb(106, 150, 126);
-
-
-    }
-
-
-
-a{
-    color: rgb(84, 128, 185);
+button a{
     text-decoration: none;
-}
-a:hover{
-    color: gray;
-    border-bottom: 1px solid gray;
+    color: rgb(228, 33, 33);
 }
 
 
@@ -46,11 +46,10 @@ a:hover{
 
 
 
-button{
-width: 80px;
-height: 30px;
-border: none;
 
 
+img{
+width: 120px;
 
 }
+
